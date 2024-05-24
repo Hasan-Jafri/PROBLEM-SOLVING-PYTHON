@@ -17,6 +17,7 @@ Example 2:
 Input: height = [1,1]
 Output: 1
 '''
+# Two Pointers Approach.
 
 def maxArea(height):
     area = 0

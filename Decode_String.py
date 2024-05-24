@@ -30,6 +30,7 @@ s consists of lowercase English letters, digits, and square brackets '[]'.
 s is guaranteed to be a valid input.
 All the integers in s are in the range [1, 300].
 '''
+# Stack Approach.
 
 def decodeString(s: str) -> str:
         stack = []

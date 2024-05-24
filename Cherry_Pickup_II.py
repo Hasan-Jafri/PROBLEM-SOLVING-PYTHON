@@ -62,7 +62,7 @@ def helper(grid,m,n,r,c1,c2):
         cherries = grid[r][c1] + grid[r][c2]
     next_ = 0
     # This loop basically checks for all possible paths for each Robot checing every path.
-    # Robots can mve simultaneously that is why 9 moves are possible at most.
+    # Robots can move simultaneously that is why 9 moves are possible at most.
     for i in range(3):
         for j in range(3):
             nc1 = c1 + choice[i] # Used assist array for move.

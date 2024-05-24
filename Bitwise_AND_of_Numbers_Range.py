@@ -22,6 +22,7 @@ Constraints:
 
 0 <= left <= right <= 231 - 1
 '''
+# BitShift Approach.
 
 def rangeBitwiseAnd(left, right):
     count = 0

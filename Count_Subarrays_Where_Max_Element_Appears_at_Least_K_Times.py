@@ -27,6 +27,7 @@ Constraints:
 1 <= nums[i] <= 106
 1 <= k <= 105
 '''
+# Sliding Window Approach.
 
 def countSubarrays(nums, k):
     result = 0

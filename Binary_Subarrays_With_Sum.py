@@ -28,6 +28,7 @@ nums[i] is either 0 or 1.
 0 <= goal <= nums.length
 '''
 
+# Prefix Count Approach.
 
 def numSubarraysWithSum(nums, goal):
     prefix_count = {}

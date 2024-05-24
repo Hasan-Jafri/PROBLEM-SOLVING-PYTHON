@@ -50,6 +50,7 @@ Constraints:
 0 <= tokens.length <= 1000
 0 <= tokens[i], power < 104
 '''
+# Two Pointers Approach
 
 def bagOfTokensScore(tokens, power):
     tokens.sort()

@@ -32,6 +32,8 @@ Constraints:
 asteroids[i] != 0
 '''
 
+# Stack Approach
+
 def asteroidCollision(asteroids):
     stack = []
     for asteroid in asteroids:

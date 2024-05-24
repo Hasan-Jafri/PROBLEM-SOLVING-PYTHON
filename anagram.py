@@ -6,20 +6,8 @@ string_1 = str(input("Enter String 1: "))
 
 string_2 = str(input("Enter String 2: "))
 
-# count = 0
-# if(len(string_1) == len(string_2)):
-    
-#     for i in string_1:
-#         for j in string_2:
-#             if(i == j):
-#                 count += 1
-# else:
-#     print("Not Anagram")
-    
-# if(count == len(string_1)):
-#     print("Anagram")
-# else:
-#     print("Not Anagram")
+# Hash Map Approach
+
 flag = True  
 dct = {}  
 for i in string_1:

@@ -55,7 +55,6 @@ def numDecodings(s):
         if(int(s[i]) > 0):
             count += count_c
         if(int(s[i-1] + s[i]) >= 10 and int(s[i-1] + s[i]) <= 26):
-            print(int(s[i-1] + s[i]))
             count += count_p
         count_p = count_c
         count_c = count
