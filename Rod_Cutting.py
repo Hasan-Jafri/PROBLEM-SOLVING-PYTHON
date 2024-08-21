@@ -23,7 +23,7 @@ def Rod_Cutting_Bottom_Up(length, price_array):
     print("Cuts: ",s[length-1])
     return dp[length]
 
-
+    
 price_array = [1,5,8,9,10,17,17,20,24,30]
 length = 8
 print(Rod_Cutting_Bottom_Up(length=length,price_array=price_array))

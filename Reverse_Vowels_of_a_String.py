@@ -16,7 +16,6 @@ Output: "leotcede"
 
 def reverseVowels(s):
         vowels = ['a','e','i','o','u','A',"E","I","O",'U']
-        result = ''
         s = list(s)
         left = 0
         right = len(s)-1

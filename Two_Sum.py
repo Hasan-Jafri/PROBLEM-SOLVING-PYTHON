@@ -41,7 +41,6 @@ def twoSum(nums, target):
         position[nums[i]] = i
     x = 0
     n = len(nums)
-    result = []
     for i in range(n):
         if target - nums[i] in position and position[target - nums[i]] != i:
             return [i,position[target-nums[i]]]

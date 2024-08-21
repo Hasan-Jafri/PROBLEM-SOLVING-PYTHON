@@ -17,4 +17,4 @@ while(len(num) != 1):
     num = lst # Giving num the values stored in lst for itertion.
     print(num)
     lst = [] # Emptying the lst to sotre the next iteration differences.
-print(num[0]) #After whole process is finished we are left witha single element un the num which is our result.
+print(num[0]) #After whole process is finished we are left with a single element un the num which is our result.
